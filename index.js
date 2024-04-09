@@ -16,7 +16,9 @@ createFile();
 app.use(upload());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
+// app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
+app.use(cors({ credentials: true, origin: "https://mern-blog-client-sage.vercel.app" }));
+
 app.use("/api/users", userRouter);
 app.use("/api/posts", postRouter);
 app.use("/uploads", express.static(__dirname + "/uploads"));
