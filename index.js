@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:3000" || "https://mern-blog-client-coral.vercel.app",
+    origin: "https://mern-blog-client-coral.vercel.app",
   })
 );
 
