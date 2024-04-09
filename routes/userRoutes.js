@@ -1,6 +1,6 @@
 const { Router } = require("express");
 // const { registerValidationRules } = require("../config/validator");
-const asyncHandler = require("express-async-handler");
+// const asyncHandler = require("express-async-handler");
 const {
   registerUser,
   loginUser,

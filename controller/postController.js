@@ -2,7 +2,7 @@ const asyncHandler = require("express-async-handler");
 const { v4: uuid } = require("uuid");
 const HttpError = require("../models/errorModel");
 const Post = require("../models/postModel");
-const bcrypt = require("bcrypt");
+// const bcrypt = require("bcrypt");
 const User = require("../models/userModel");
 
 const path = require("path");
